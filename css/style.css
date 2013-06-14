@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'BPreplayRegular';
+    src: url('../BPreplay-fontfacekit/BPreplay-webfont.eot');
+    src: url('../BPreplay-fontfacekit/BPreplay-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../BPreplay-fontfacekit/BPreplay-webfont.woff') format('woff'),
+         url('../BPreplay-fontfacekit/BPreplay-webfont.ttf') format('truetype'),
+         url('../BPreplay-fontfacekit/BPreplay-webfont.svg#BPreplayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BPreplayItalic';
+    src: url('../BPreplay-fontfacekit/BPreplayItalics-webfont.eot');
+    src: url('../BPreplay-fontfacekit/BPreplayItalics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../BPreplay-fontfacekit/BPreplayItalics-webfont.woff') format('woff'),
+         url('../BPreplay-fontfacekit/BPreplayItalics-webfont.ttf') format('truetype'),
+         url('../BPreplay-fontfacekit/BPreplayItalics-webfont.svg#BPreplayItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BPreplayBold';
+    src: url('../BPreplay-fontfacekit/BPreplayBold-webfont.eot');
+    src: url('../BPreplay-fontfacekit/BPreplayBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../BPreplay-fontfacekit/BPreplayBold-webfont.woff') format('woff'),
+         url('../BPreplay-fontfacekit/BPreplayBold-webfont.ttf') format('truetype'),
+         url('../BPreplay-fontfacekit/BPreplayBold-webfont.svg#BPreplayBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'BPreplayBoldItalic';
+    src: url('../BPreplay-fontfacekit/BPreplayBoldItalics-webfont.eot');
+    src: url('../BPreplay-fontfacekit/BPreplayBoldItalics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../BPreplay-fontfacekit/BPreplayBoldItalics-webfont.woff') format('woff'),
+         url('../BPreplay-fontfacekit/BPreplayBoldItalics-webfont.ttf') format('truetype'),
+         url('../BPreplay-fontfacekit/BPreplayBoldItalics-webfont.svg#BPreplayBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+body { 
+  font-family: 'BPreplayRegular', Arial, sans-serif;
+  background: url('../img/bg-img.png') no-repeat center top;
+  padding-left: 4px;
+  position: relative;
+}
+.fancy {
+  font-family: 'BPreplayItalic', Arial, sans-serif;
+}
+
+strong {
+  font-family: 'BPreplayBold', Arial, sans-serif;
+}
+
+.info p{
+  color: rgb(149,149,149);
+  margin-bottom: 50px
+}
+
+.info  h1{
+  color: rgb(73,73,73);
+  margin: 0px 0px 15px 0px;
+}
+
+.header {
+  margin-top: 150px;
+  margin-bottom: 0px;
+  height: 70px;
+  line-height: 35px;
+  background-color: #e56289;
+  box-shadow: 0px 2px 5px black;
+}
+
+.logo {
+  color: white;
+  float: left;
+  font-size: 2em;
+  height: 70px;
+}
+
+.logo p{
+ height: 70px;
+ margin: 0 auto;
+ padding-left: 20px;
+ padding-top: 20px;
+}
+
+ul.nav {
+	margin: 0 auto;
+	padding:  20px 0 0 0;
+  height: 50px;
+	list-style: none;
+  font-weight: bold;
+	float: right;
+}
+
+ul.nav li {
+	float: left;
+	margin-right: 20px;
+}
+
+ul.nav li a {
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+
+ul.nav li a:hover {
+  text-shadow: 0 0 10px #fff;
+}
+
+.slider {
+  position: relative;
+  left: -100px;
+  box-shadow: 0px 2px 5px black;
+  margin-bottom: 0px;
+}
+
+.content {
+  overflow: hidden;
+}
+
+.slogan {
+  height: 100px;
+  line-height: 100px;
+  margin: 0px 0px 40px 0px;
+  background-color: rgb(147,32,72);
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2em;
+  box-shadow: inset 0px 2px 5px black;
+}
+
+.info {
+  float: right;
+  margin-bottom: 0px;
+}
+
+.follows {
+  margin-top: 40px !important;
+}
+.pic {
+  float: left;
+  margin: 0px 0 0 80px;
+}
+
+.footer {
+  height: 120px;
+  background-color: #e56289;
+  margin: 20px 0 0 0;
+}
+
+@media screen and (max-width : 1024px) {
+  
+  .pic img{
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+}
